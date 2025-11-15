@@ -9,6 +9,8 @@ AI Usage: The following AI assistance was used:
 
 - ChatGPT assisted with adding comments to the final code.
 
+-ChatGPT assisted with  main program testing
+
 Example: AI helped with inheritance structure and method overriding concepts
 """
 
