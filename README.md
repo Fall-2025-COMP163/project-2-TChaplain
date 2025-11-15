@@ -145,3 +145,56 @@ Feel free to add your own creative touches for bonus points:
 - Additional character classes beyond the three required
 - More weapon types with different properties
 - Enhanced special abilities with unique effects
+
+## Project Summary
+
+This project implements a simple character system demonstrating inheritance, polymorphism, method overriding, and composition.
+The classes included are:
+
+- Character (base class)
+
+- Player (inherits from Character)
+
+- Warrior, Mage, Rogue (each inherits from Player)
+
+- Weapon (used through composition)
+
+Each character type has its own stats and a unique special ability.
+
+🌟 Bonus Creative Features
+
+- Weapon Composition Examples: Created example weapons (Iron Sword, Magic Staff, Steel Dagger) and displayed their stats using display_info().
+
+- Clear Stat Displays: display_stats() prints character stats in a clean, readable format, including class, level, and experience for players.
+
+- Polymorphism Demonstration: Loops through multiple characters attacking the same target to showcase method overriding in action.
+
+If you want, I can tailor this list to match what YOU actually added.
+
+🤖 AI Usage Documentation
+
+The following AI assistance was used:
+
+- ChatGPT provided debugging help to fix issues based on failing pytest messages.
+
+- ChatGPT assisted with adding comments to the final code.
+
+## All code was tested, verified, written, and understood by me.
+
+1. Run the main program
+
+This allows you to see character stats, basic attacks, special abilities, weapons, and the sample battle system.
+
+- python project2_starter.py
+
+2. Run the automated tests
+
+To ensure all requirements are met:
+
+- python -m pytest tests/ -v
+
+You can also run individual test files:
+
+- python -m pytest tests/test_inheritance.py -v
+- python -m pytest tests/test_special_abilities.py -v
+- python -m pytest tests/test_method_overriding.py -v

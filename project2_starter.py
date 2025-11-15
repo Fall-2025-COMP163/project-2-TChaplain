@@ -1,9 +1,14 @@
 """
 COMP 163 - Project 2: Character Abilities Showcase
-Name: [Your Name Here]
-Date: [Date]
+Name: Tajaunie Chaplain
+Date: 11/14/25
 
-AI Usage: [Document any AI assistance used]
+AI Usage: The following AI assistance was used:
+
+- ChatGPT provided debugging help to fix issues based on failing pytest messages.
+
+- ChatGPT assisted with adding comments to the final code.
+
 Example: AI helped with inheritance structure and method overriding concepts
 """
 
@@ -80,7 +85,7 @@ class Character:
         # Prevents health from dropping below zero
         if self.health < 0:
             self.health = 0
-            
+
         if self.health == 0:
             print("Character Defeated!")
             
